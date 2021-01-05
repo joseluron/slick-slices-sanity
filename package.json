@@ -9,7 +9,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "sanity start",
-    "deployGraphql": "sanity graphql deploy production"
+    "deployGraphql": "sanity graphql deploy production",
+    "importDataset": "sanity dataset import ./sample-data/all-sample-data.gz production --replace"
   },
   "keywords": [
     "sanity"
